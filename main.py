@@ -79,7 +79,7 @@ def search_documents(query, top_k=3, threshold=1.3):
     return results
 
 # Example query
-query = "Does the guarantor need to sign the lease agreement?"
+query = "Who has a dog?"
 search_results = search_documents(query)
 for doc, dist in search_results:
     print(doc)
